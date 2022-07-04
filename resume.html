@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> My Resume </title>
+    <script src="https://kit.fontawesome.com/d20afcb9f2.js" crossorigin="anonymous"></script>
+    
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            
+        }
+        section{
+            display: block;
+        }
+        body{
+            display: block;
+            background-color: #c4c4c4;
+            font-size: 14px;
+        }
+        main{
+            display: block;
+        }
+        .class-content{
+            display: grid;
+            min-height: 1000px;
+            grid-template-columns: 300px 700px;
+            width: 90%;
+            margin: 20px auto;
+            color: #fff;
+        }
+        .class-content .left-section{
+            background-color: #26252d;
+            grid-column: span 1;
+
+        }
+        .class-content .right-section{
+          background-color: #fff;
+          color: #26252d;
+          grid-column: span 1 / span 2;
+        }
+        .left-content{
+            padding: 1rem;
+        }
+        .profile-details .profile-image{
+            display: block;
+            margin: auto;
+           text-align: center;
+           border: 5px white solid;
+           border-radius: 30%;
+           width: 60%;
+        }
+        .profile-details .profile-image img{
+            
+            width: 60%;
+
+        }
+        .profile-details .name{
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+            margin: 0.02px;
+            padding: 0.8rem;
+        }
+        .profile-details .designation{
+            font-size: 1rem;
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 0.5rem;
+        }
+        .profile-details .description{
+            font-size: 0.75rem;
+            text-align: center;
+            padding: 1rem;
+        }
+        .social-media{
+            display: flex;
+            justify-content: center;
+        }
+        .social-media .icon{
+            margin: 4px auto;
+        }
+        .personal-details .icon{
+            display: inline;
+            margin: 3px;
+          
+        }
+        .skills .skill-title{
+            font-size: 0.75rem;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 1rem 0.5rem;
+        }
+         .skill-name{
+            font-size: 0.5rem;
+            weight:0.65rem;
+            text-align: left;
+            padding-bottom: 0.5rem;
+        }
+        .progress-bar{
+            border: 1px white solid;
+            height: 4px;
+        }
+        .right-main-content{
+            padding: 2rem 3rem;
+        }
+        .right-title{
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            font-weight: 700;
+            padding: 0.5rem;
+            letter-spacing: 1px;
+    
+        }
+        
+          .int_icon{
+            margin:5px;
+            padding: 2px;
+           
+
+        }
+        @media only screen and (max-width: 630px) {
+  .main-content {
+    grid-template-columns: repeat(1 ,1fr);
+  }
+}
+      
+
+
+    </style>
+    </head>
+<body>
+ 
+
+<main class="class-content">
+<section class="left-section">
+    <div class="left-content">
+     
+     <div class="profile-details">
+        <div class="profile-image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBxERfeH8CH5Hfr-fdowRXIGzqlilsEzmPzg&usqp=CAU" alt="">
+        </div>
+        <div class="name">
+            Abdul Ahad
+        </div>
+        <div class="designation">
+            SDE-1
+        </div>
+        <div class="description">
+            Full Stack Developer || Digital Marketing Expert
+        </div>
+        <div class="contact-item">
+           <div class="social-media">
+            <div class="icon">
+                <a href="https://www.facebook.com/theahadcameback">
+            <i class="fa-brands fa-facebook"></i></a>
+           </div>
+           <div class="icon">
+            <a href="https://www.linkedin.com/in/abdul-ahad-161533172/">
+           <i class="fa-brands fa-linkedin-in"></i></a>
+           </div>
+           <div class="icon">
+            <a href="https://twitter.com/AbdulAh08916414">
+           <i class="fa-brands fa-twitter"></i></a>
+           </div></div>
+           <div class="personal-details">
+            <li class="icon">
+               <p> <i class="fa-solid fa-envelope"></i>
+                abdulahad.taans@gmail.com</p>
+            </li>
+            <li class="icon">
+               <p><i class="fa-solid fa-phone"></i>
+                +919696954565</p>
+            </li>
+            <li class="icon">
+               <p> <i class="fa-solid fa-address-card"></i>
+                Iraquiyana, Shahganj</p>
+                &nbsp;&nbsp;&nbsp;&nbsp;Jaunpur,223101</p>
+            
+            </li>
+           </div>
+           <br>
+        </div>
+        <div class="skills">
+            <h2 class="skill-title">SKILLS</h2>
+         <div class="skill-content">
+            <div class="skill-item">
+                <div class="skill-name">
+                    <h3>HTML</h3>
+                </div>
+                <div class="progress-bar" style="width: 90%;">
+                   
+
+                    </div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">
+                    <h3>CSS</h3>
+                </div>
+                <div class="progress-bar" style="width: 80%;">
+                    
+
+                    </div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="progress-bar" style="width: 70%;">
+                   
+
+                    </div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">
+                    <h3>Java</h3>
+                </div>
+                <div class="progress-bar" style="width:40%;">
+                   
+
+                    </div>
+                </div>
+            </div>
+           
+         </div>
+        </div>
+     </div>
+    </div>
+</section>
+<section class="right-section">
+    <div class="right-main-content">
+        <div class="aboutsect">
+            <h2 class="right-title">
+                About Me
+            </h2>
+            <p> 
+
+                “Hi, I’m Abdul Ahad. I’m amazing. I’m super knowledgeable, creative, and intelligent. I’m at the cutting edge of my field and I’m quite skilled in all things business-related.”</p>
+
+
+        </div>
+        <div class="educationsect">
+            <h2 class="right-title">Education</h2>
+
+        </div>
+        <div class="education-content">
+            <div class="resume_info">
+                <div class="resume_data">
+                    <div class="year">2017-2021</div>
+                    <div class="content">
+                        <p>B.Tech in Metallurgy and Material Engineering</p>
+                        <p>Lorem ipsum dolor sit amet
+                             consectetur adipisicing elit.
+                              Dolore magnam exercitationem
+                               tenetur quas praesentium earum
+                             ad vero magni inventore ut?</p>
+
+
+                    </div>
+                </div>
+                <div class="resume_data">
+                    <div class="year">2014-2016</div>
+                    <div class="content">
+                        <p>Higher Secondary School</p>
+                        <p>Lorem ipsum dolor sit amet
+                             consectetur adipisicing elit.
+                              Dolore magnam exercitationem
+                               tenetur quas praesentium earum
+                             ad vero magni inventore ut?</p>
+                             
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="exp">
+          <h2 class="right-title">Experience</h2>
+          <div class="resume_data">
+            <div class="year">2017-2021</div>
+            <div class="content">
+                <p>B.Tech in Metallurgy and Material Engineering</p>
+                <p>Lorem ipsum dolor sit amet
+                     consectetur adipisicing elit.
+                      Dolore magnam exercitationem
+                       tenetur quas praesentium earum
+                     ad vero magni inventore ut?</p>
+
+
+            </div>
+        
+        <div class="resume_data">
+            <div class="year">2014-2016</div>
+            <div class="content">
+                <p>Higher Secondary School</p>
+                <p>Lorem ipsum dolor sit amet
+                     consectetur adipisicing elit.
+                      Dolore magnam exercitationem
+                       tenetur quas praesentium earum
+                     ad vero magni inventore ut?</p>
+                     </div>
+            </div>
+        </div>
+       </div>
+       <div class="interest">
+        <h2 class="right-title">Interests</h2>
+        <div class="interests">
+            <div class="int_icon">
+               <p>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-code"></i>
+                Coding</p>
+               </div>
+        </div>
+        <div class="interests">
+            <div class="int_icon">
+               <p>&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-chess"></i>
+                Playing Chess</p>
+            </div>
+           
+        </div>
+       </div>
+</section>
+</main>
+</body>
+    </html>
